@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FAFAF9;
+  color: #2B2D2F;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+}
+
+::selection {
+  background-color: #FF9B85;
+  color: #FAFAF9;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
