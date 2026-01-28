@@ -1,36 +1,43 @@
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
-  './index.html',
-  './src/**/*.{js,ts,jsx,tsx}'
-],
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}'
+  ],
   theme: {
     extend: {
       colors: {
-        coral: {
-          DEFAULT: '#FF9B85',
-          light: '#FFBCAE',
+        dark: {
+          bg: '#0a0a0a',
+          surface: '#141414',
+          border: '#262626',
         },
-        teal: {
-          DEFAULT: '#6B9B9E',
-          light: '#8FBFC2',
+        light: {
+          bg: '#fafafa',
+          surface: '#ffffff',
+          border: '#e5e5e5',
         },
-        beige: {
-          DEFAULT: '#E8DCC4',
-          light: '#F5EFE0',
+        neutral: {
+          50: '#fafafa',
+          100: '#f5f5f5',
+          200: '#e5e5e5',
+          300: '#d4d4d4',
+          400: '#a3a3a3',
+          500: '#737373',
+          600: '#525252',
+          700: '#404040',
+          800: '#262626',
+          900: '#171717',
+          950: '#0a0a0a',
         },
-        charcoal: '#2B2D2F',
-        offwhite: '#FAFAF9',
       },
       fontFamily: {
-        heading: ['"Outfit"', 'sans-serif'],
-        sans: ['"Inter"', 'sans-serif'],
+        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
       },
-      borderRadius: {
-        '4xl': '2rem',
-        '5xl': '2.5rem',
-      }
+      borderWidth: {
+        '0.5': '0.5px',
+      },
     },
   },
   plugins: [
