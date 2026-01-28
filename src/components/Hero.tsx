@@ -21,12 +21,21 @@ export function Hero() {
           </p>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-8 flex items-center gap-4">
           <a
             href="mailto:hello@aarish.co"
             className="text-[var(--text-primary)] underline underline-offset-4 decoration-[var(--text-muted)] hover:decoration-[var(--text-primary)] transition-colors"
           >
             hello@aarish.co
+          </a>
+          <span className="text-[var(--text-muted)]">/</span>
+          <a
+            href="https://linkedin.com/in/aarish-alam"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--text-primary)] underline underline-offset-4 decoration-[var(--text-muted)] hover:decoration-[var(--text-primary)] transition-colors"
+          >
+            LinkedIn
           </a>
         </div>
       </div>
