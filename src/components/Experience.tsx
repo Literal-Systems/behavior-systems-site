@@ -6,53 +6,62 @@ interface ExperienceItem {
   role: string;
   period: string;
   description: string;
+  link?: string;
 }
 
 const experiences: ExperienceItem[] = [
   {
     id: 1,
+    company: 'LiteLLM',
+    role: 'OSS Maintainer (Part-time Contractor)',
+    period: '2026–Present',
+    description: 'Contributing to LiteLLM as an open source maintainer. Building and maintaining the unified API gateway for LLM providers.',
+    link: 'https://github.com/BerriAI/litellm/pulls?q=is%3Apr+is%3Aclosed+author%3ARheagalFire',
+  },
+  {
+    id: 2,
     company: 'RIMA (YC W24)',
     role: 'Consulting AI Engineer',
     period: '2025',
     description: 'Building evaluation systems and observability infrastructure for AI-powered compliance platform.',
   },
   {
-    id: 2,
+    id: 3,
     company: 'Scaled Focus',
     role: 'AI Consultant',
     period: '2025',
     description: 'Setup Langfuse observability for 1M+ ingestions/day. Designing AI agent architectures and evaluation frameworks.',
   },
   {
-    id: 3,
+    id: 4,
     company: 'Futurepath AI',
     role: 'AI Engineer',
     period: '2024–2025',
     description: 'Built semantic chat and voice systems. Developed LLM observability pipelines and agentic systems for Kubernetes management.',
   },
   {
-    id: 4,
+    id: 5,
     company: 'Fold',
     role: 'AI Engineer',
     period: '2023–2024',
     description: 'Fine-tuned DistilBERT for transaction categorization. Built smart search with RASA framework.',
   },
   {
-    id: 5,
+    id: 6,
     company: 'PhonePe',
     role: 'Automation Engineer',
     period: '2023',
     description: 'Developed ETL pipeline for agent training. Applied K-means clustering to support tickets.',
   },
   {
-    id: 6,
+    id: 7,
     company: 'Shopagain',
     role: 'Data Scientist',
     period: '2021–2022',
     description: 'Developed customer lifetime value prediction models and real-time intent prediction system.',
   },
   {
-    id: 7,
+    id: 8,
     company: 'Unmazer.ai',
     role: 'Data Scientist',
     period: '2021',
@@ -79,7 +88,13 @@ export function Experience() {
               </span>
               <div>
                 <h3 className="font-medium text-[var(--text-primary)] group-hover:text-[var(--text-secondary)] transition-colors">
-                  {exp.company}
+                  {exp.link ? (
+                    <a href={exp.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                      {exp.company} &rarr;
+                    </a>
+                  ) : (
+                    exp.company
+                  )}
                 </h3>
                 <p className="text-sm text-[var(--text-muted)] mt-0.5">
                   {exp.role}
