@@ -20,17 +20,17 @@ const experiences: ExperienceItem[] = [
   },
   {
     id: 2,
+    company: 'Scaled Focus',
+    role: 'AI Engineer',
+    period: '2025–Present',
+    description: 'Setup Langfuse observability for 1M+ ingestions/day. Designing AI agent architectures and evaluation frameworks.',
+  },
+  {
+    id: 3,
     company: 'RIMA (YC W24)',
     role: 'Consulting AI Engineer',
     period: '2025',
     description: 'Building evaluation systems and observability infrastructure for AI-powered compliance platform.',
-  },
-  {
-    id: 3,
-    company: 'Scaled Focus',
-    role: 'AI Consultant',
-    period: '2025',
-    description: 'Setup Langfuse observability for 1M+ ingestions/day. Designing AI agent architectures and evaluation frameworks.',
   },
   {
     id: 4,
