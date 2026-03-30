@@ -24,6 +24,7 @@ const experiences: ExperienceItem[] = [
     role: 'AI Engineer',
     period: '2025–Present',
     description: 'Setup Langfuse observability for 1M+ ingestions/day. Designing AI agent architectures and evaluation frameworks.',
+    link: 'http://scaledfocus.com/',
   },
   {
     id: 3,
@@ -31,6 +32,7 @@ const experiences: ExperienceItem[] = [
     role: 'Consulting AI Engineer',
     period: '2025',
     description: 'Building evaluation systems and observability infrastructure for AI-powered compliance platform.',
+    link: 'https://www.getrima.ai/',
   },
   {
     id: 4,
@@ -38,6 +40,7 @@ const experiences: ExperienceItem[] = [
     role: 'AI Engineer',
     period: '2024–2025',
     description: 'Built semantic chat and voice systems. Developed LLM observability pipelines and agentic systems for Kubernetes management.',
+    link: 'https://www.futurepath.ai/',
   },
   {
     id: 5,
@@ -45,6 +48,7 @@ const experiences: ExperienceItem[] = [
     role: 'AI Engineer',
     period: '2023–2024',
     description: 'Fine-tuned DistilBERT for transaction categorization. Built smart search with RASA framework.',
+    link: 'https://www.fold.money/',
   },
   {
     id: 6,
@@ -52,6 +56,7 @@ const experiences: ExperienceItem[] = [
     role: 'Automation Engineer',
     period: '2023',
     description: 'Developed ETL pipeline for agent training. Applied K-means clustering to support tickets.',
+    link: 'https://www.phonepe.com/',
   },
   {
     id: 7,
@@ -59,6 +64,7 @@ const experiences: ExperienceItem[] = [
     role: 'Data Scientist',
     period: '2021–2022',
     description: 'Developed customer lifetime value prediction models and real-time intent prediction system.',
+    link: 'https://www.shopagain.io/',
   },
   {
     id: 8,
@@ -66,6 +72,7 @@ const experiences: ExperienceItem[] = [
     role: 'Data Scientist',
     period: '2021',
     description: 'Developed REST APIs and built data pipelines using AWS services. Implemented spatial analysis techniques.',
+    link: 'https://www.unmazer.ai/',
   },
 ];
 
