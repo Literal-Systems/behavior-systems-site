@@ -1,0 +1,188 @@
+%% Based on a TeXnicCenter-Template by Gyorgy SZEIDL.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{article}%%
+\renewcommand{\baselinestretch}{1} 
+
+\usepackage{amsmath}%
+\usepackage{hyphenat}%
+\usepackage{amsfonts}%
+\usepackage{amssymb}%
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{ragged2e}
+\usepackage{bm}
+\usepackage[margin = 20 mm]{geometry}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=20mm,
+ right=20mm,
+ top=20mm,
+ bottom=10mm,
+ }
+\usepackage{enumerate}
+\usepackage{hyperref}
+\RequirePackage[fixed]{fontawesome5} 
+
+\pagenumbering{gobble}
+\begin{document}
+\begin{flushleft}
+\textbf{\Large{\huge Aarish Alam}}
+\end{flushleft}
+{\textbf{\href{mailto:arishalam121@gmail.com}{arishalam121@gmail.com}}}
+\hfill{Mobile No. \textbf{7223015989}}
+
+\begin{flushleft}
+{\href{https://rheagalfire.github.io}{\textbf{Portfolio Website}}}\hfill
+\begin{minipage}{0.4\textwidth}
+\raggedleft
+\href{https://github.com/RheagalFire}{\faGithub}\hspace{2mm}
+\href{https://www.linkedin.com/in/aarish-alam/}{\faLinkedin}\hspace{2mm}
+\href{https://arishalam121.medium.com/}{\faMedium}\hspace{2mm}
+\href{https://www.kaggle.com/arishalam}{\faKaggle}
+\end{minipage}
+\end{flushleft}
+
+%===========================
+\vspace{2mm}
+\begin{flushleft}
+\bf{\Large{Work Experience}}
+\end{flushleft}
+\vspace{-2mm}
+\hline
+\vspace{2mm}
+AI Engineer, \textbf {FutureOps} \hfill{March 2024 - Present}
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{0.01em}
+\item \textbf{Agentic Querying System}: Developed an agentic system for querying Kubernetes pods and database systems, leveraging \textbf{LangGraph} and \textbf{MCP servers}.
+\item \textbf{LLM Observability Pipeline}: Built an end-to-end evaluation suite using \textbf{RAGAS} and developed an LLM observability pipeline utilizing \textbf{Phoenix} compatible with Opentelemetry for chat and voice modules.
+\item \textbf{Early Adopter of DSPY}: Integrated \textbf{DSPY} for prompt fine-tuning, increasing the precision of the function callingtion calling from\textbf{ 92\% to 95\%}.
+    \item \textbf{Development of Evaluation Framework}: Implemented an evaluation framework derived from \textbf{RAGAS}, effectively capturing metrics such as \textbf{context precision and recall}.
+    \item \textbf{Implementation of TTS and STT agents}: Developed Text-to-Speech (TTS) and Speech-to-Text (STT) agents, facilitating seamless conversational and voice-based chatbots.
+    \item \textbf{Anomaly and Event Detection Systems}: Engineered systems to detect anomalies and events related to infrastructure issues, ensuring proactive maintenance and stability.
+    \item \textbf{Integration of Guardrails AI and PII Detection}: Implemented \textbf{Guardrails} AI and Personally Identifiable Information (PII) detection systems, integrating them with LLM interface network calls to ensure data security.
+    \item \textbf{Chat and Voice Systems}: Built chat and voice systems using agentic workflows, \textbf{Hybrid Retrieval-Augmented Generation (RAG)}, and \textbf{Ranked Retrieval Fusion (RRF)}, achieving over \textbf{85\% precision and context recall}.
+\end{itemize}
+\vspace{-1mm}
+ML Engineer, \textbf {Fold Money} \hfill{July 2023 - March 2024}
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{0.01em}
+ \item \textbf{Fine-Tuning DistilBERT for Transaction Categorization}: Fine-tuned a \textbf{DistilBERT} model to identify transaction categories based on narration notes, achieving a \textbf{precision of} \textbf{97\% and recall of 90\%}.
+    \item \textbf{Development of a Smart Search Model}: Built a smart search model that identifies user intent and displays filtered transactions along with a summary. This system was based on \textbf{RASA} and semantic search over a vector database, incorporating custom conversion logic to SQL queries.
+    \item \textbf{Hybrid Tagging System}: Developed a hybrid tagging system (Combining Rule Based and ML Based Approach) that adapted to user behavior by understanding the semantic space of users and merchants, enhancing the personalization of transaction tagging. 
+    \hfill \href{https://fold.money/blog/automating-transaction-tagging}{\faGlobe}
+\end{itemize}
+\vspace{-1mm}
+Automation Engineer Intern, \textbf {Phonepe} \hfill{Jan 2023 - Jun 2023}
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{0.01em}
+\item \textbf{Development of ETL Pipeline for Agent Training Data}: Engineered a \textbf{ETL pipeline} to process agent training documents and performance metrics, automating data extraction, transformation, and loading into a centralized warehouse. Utilized \textbf{Looker Studio} to create dynamic dashboards, enabling real-time monitoring and analysis of agent performance and training effectiveness.
+    \item \textbf{Optimization of Support Workflows through Issue Clustering}: Applied \textbf{K-means Clustering}, to analyze support tickets, identifying patterns and common issue categories. Utilized the \textbf{Jina-Embeddings-v3} model to embed multilingual call transcripts, allowing the assignment of transcripts to specific clusters. This approach facilitated the identification of optimal solutions and reference calls by analyzing patterns within the clustered data.
+\end{itemize}
+\vspace{-1mm}
+
+\pagebreak
+\noindent Data Science Intern, \textbf{Shopagain} \hfill{Dec 2021 - Dec 2022}
+\vspace{-1mm}
+
+
+\begin{itemize}
+\setlength\itemsep{0.01em}
+\item \textbf{Customer Lifetime Value Prediction}: Developed modules to predict the lifetime value of the customer based on browsing, purchase and demographic data.
+    \item \textbf{Real-Time Intent Prediction}: Built and deployed a real-time prediction module for the intent of the customer to purchase products from session data, with comprehensive monitoring systems.
+\end{itemize}
+
+%===========================
+
+%===========================
+%===========================
+\begin{flushleft}
+\bf{\Large{Projects}}
+\end{flushleft}
+\vspace{-2mm}
+\hline
+\vspace{2mm}
+
+\begin{itemize}
+\setlength\itemsep{2mm} % slight vertical gap between items
+
+% Project 1
+\item 
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\textbf{LLM-Gym} & 
+\href{https://github.com/RheagalFire/LLM-gym/tree/main/gym_reader}{\faGithub} \hspace{2mm}
+\href{https://www.linkedin.com/posts/aarish-alam_rag-dspy-knowledgemanagement-activity-7288050529685975042-uNUi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3guzgBLJ3ujDvj7NqMMjTw1_2SwpYn4dE}{\faLinkedin}
+\end{tabular*} \\
+\justifying
+Built a semantic search and chat tool to retrieve bookmarked articles using \textbf{Qdrant} and \textbf{Meilisearch}, enabling hybrid search over both summaries and full content. Used \textbf{DSPy} with \textbf{Instructor} for prompt tuning and validation. Integrated CI/CD workflows via \textbf{GitHub Actions} and deployed the infrastructure on AWS using \textbf{Terraform}.
+
+% Project 2
+\item
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\textbf{Browser-side Inferencing} & 
+\href{https://github.com/RheagalFire/Browserside-Inferencing}{\faGithub}
+\end{tabular*} \\
+\justifying
+Implemented fast and efficient model execution using \textbf{ONNX Runtime} and deployed the models with \textbf{WebAssembly}, ensuring seamless cross-platform compatibility.
+
+% Project 3
+\item
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\textbf{Personalized Chat Bot} & 
+\href{https://github.com/RheagalFire/personalized_chat_bot}{\faGithub}
+\end{tabular*} \\
+\justifying
+Built a personalized chatbot using \textbf{LangChain} for structured dialogue and \textbf{Pinecone} for vector storage, enabling semantic search and user-specific retrieval across conversations.
+
+\end{itemize}
+
+
+
+%===========================
+\begin{flushleft}
+\bf{\Large{Talks}}
+\end{flushleft}
+\vspace{-1mm}
+\hline
+\begin{itemize}
+\item Speaker at PyData Bangalore on Scalable Hybrid RAG\hfill
+\href{https://www.linkedin.com/posts/pydata-bangalore_pydata-bangalore-machinelearning-activity-7298222664903495680-XK4G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3guzgBLJ3ujDvj7NqMMjTw1_2SwpYn4dE}{\faLinkedin}\hspace{2mm}
+\href{https://github.com/RheagalFire/Scalable-Hybrid-Rag}{\faGithub}\hspace{2mm}
+\href{https://docs.google.com/presentation/d/1a6ENOwzwmHTZ1k66ErT51CDKL4EksXiEYehhHRsKwWU/edit?usp=sharing}{\faFilePowerpoint}
+\end{itemize}
+
+%===========================
+\begin{flushleft}
+\bf{\Large{Skills}}
+\end{flushleft}
+\vspace{-1mm}
+\hline
+\begin{itemize}
+\setlength\itemsep{0.01em}
+\item \textit{Languages:} Python, C++
+\item \textit{Libraries:} Numpy, Pandas, Scikit, Tensorflow, Keras , Langgraph , Model Context Protocol , Unsloth
+\item \textit{Frameworks:} Flask, Streamlit, FastAPI 
+\item \textit{Databases:} MySQL, MongoDB, Postgres, Qdrant , Redis
+\item \textit{Cloud:} AWS, GCP, Azure, Terraform
+\end{itemize}
+%===========================
+%===========================
+\vspace{1mm}
+\begin{flushleft}
+\bf{\Large{Education}}
+\end{flushleft}
+\vspace{-2mm}
+\hline
+\vspace{2mm}
+
+\noindent
+\textbf{National Institute of Technology Raipur} \hfill \textbf{2023} \\
+B.Tech \hfill \textbf{CPI: 8.59}
+%===========================
+\end{document}

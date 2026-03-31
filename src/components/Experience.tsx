@@ -21,9 +21,9 @@ const experiences: ExperienceItem[] = [
   {
     id: 2,
     company: 'Scaled Focus',
-    role: 'AI Engineer',
+    role: 'Founding AI & Platform Engineer',
     period: '2025–Present',
-    description: 'Setup Langfuse observability for 1M+ ingestions/day. Designing AI agent architectures and evaluation frameworks.',
+    description: 'Built evaluation frameworks at Littlebird. Setup Langfuse observability for 1M+ ingestions/day at Kavana. Designing AI agent architectures for client deployments.',
     link: 'http://scaledfocus.com/',
   },
   {

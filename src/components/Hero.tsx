@@ -37,6 +37,15 @@ export function Hero() {
           >
             LinkedIn
           </a>
+          <span className="text-[var(--text-muted)]">/</span>
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--text-primary)] underline underline-offset-4 decoration-[var(--text-muted)] hover:decoration-[var(--text-primary)] transition-colors"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </section>
