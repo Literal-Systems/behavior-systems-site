@@ -15,7 +15,7 @@ const experiences: ExperienceItem[] = [
     company: 'LiteLLM',
     role: 'OSS Maintainer (Part-time Contractor)',
     period: '2026–Present',
-    description: 'Contributing to LiteLLM as an open source maintainer. Building and maintaining the unified API gateway for LLM providers.',
+    description: 'Contributing to LiteLLM as an open-source maintainer, building and maintaining the unified API gateway across 100+ LLM providers. Reviewing PRs, triaging issues, and implementing features for the proxy server and SDK.',
     link: 'https://github.com/BerriAI/litellm/pulls?q=is%3Apr+is%3Aclosed+author%3ARheagalFire',
   },
   {
@@ -23,7 +23,7 @@ const experiences: ExperienceItem[] = [
     company: 'Scaled Focus',
     role: 'Founding AI & Platform Engineer',
     period: '2025–Present',
-    description: 'Built evaluation frameworks at Littlebird. Setup Langfuse observability for 1M+ ingestions/day at Kavana. Designing AI agent architectures for client deployments.',
+    description: 'Built evaluation frameworks for AI agents at Littlebird. Setup Langfuse observability on EKS handling 1M+ ingestions/day at Kavana. Implemented explicit caching reducing costs by 75% and rolling summarization improving engagement by 20% while decreasing costs by 20%.',
     link: 'http://scaledfocus.com/',
   },
   {
@@ -31,7 +31,7 @@ const experiences: ExperienceItem[] = [
     company: 'RIMA (YC W24)',
     role: 'Consulting AI Engineer',
     period: '2025',
-    description: 'Building evaluation systems and observability infrastructure for AI-powered compliance platform.',
+    description: 'Built full-stack observability platform using Grafana and Arize Phoenix, enabling real-time monitoring and debugging of AI-powered compliance workflows.',
     link: 'https://www.getrima.ai/',
   },
   {
@@ -39,15 +39,15 @@ const experiences: ExperienceItem[] = [
     company: 'Futurepath AI',
     role: 'AI Engineer',
     period: '2024–2025',
-    description: 'Built semantic chat and voice systems. Developed LLM observability pipelines and agentic systems for Kubernetes management.',
+    description: 'Built chat and voice systems using agentic workflows, Hybrid RAG, and RRF, achieving over 85% precision and context recall. Developed LLM observability pipeline with Phoenix (OpenTelemetry) and agentic querying system using LangGraph and MCP servers.',
     link: 'https://www.futurepath.ai/',
   },
   {
     id: 5,
     company: 'Fold',
-    role: 'AI Engineer',
+    role: 'ML Engineer',
     period: '2023–2024',
-    description: 'Fine-tuned DistilBERT for transaction categorization. Built smart search with RASA framework.',
+    description: 'Fine-tuned DistilBERT for transaction categorization achieving 97% precision and 90% recall. Built smart search with RASA and semantic search over a vector database. Developed a hybrid tagging system adapting to user behavior.',
     link: 'https://www.fold.money/',
   },
   {
@@ -55,7 +55,7 @@ const experiences: ExperienceItem[] = [
     company: 'PhonePe',
     role: 'Automation Engineer',
     period: '2023',
-    description: 'Developed ETL pipeline for agent training. Applied K-means clustering to support tickets.',
+    description: 'Engineered ETL pipeline for agent training data with Looker Studio dashboards. Applied K-means clustering and Jina-Embeddings-v3 to analyze multilingual support tickets.',
     link: 'https://www.phonepe.com/',
   },
   {
@@ -63,16 +63,8 @@ const experiences: ExperienceItem[] = [
     company: 'Shopagain',
     role: 'Data Scientist',
     period: '2021–2022',
-    description: 'Developed customer lifetime value prediction models and real-time intent prediction system.',
+    description: 'Developed customer lifetime value prediction models from browsing and purchase data. Built and deployed real-time intent prediction module with comprehensive monitoring.',
     link: 'https://www.shopagain.io/',
-  },
-  {
-    id: 8,
-    company: 'Unmazer.ai',
-    role: 'Data Scientist',
-    period: '2021',
-    description: 'Developed REST APIs and built data pipelines using AWS services. Implemented spatial analysis techniques.',
-    link: 'https://www.unmazer.ai/',
   },
 ];
 
